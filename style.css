@@ -1,0 +1,165 @@
+/* ---- base ---- */
+
+body{
+	width:100%;
+	height:100%;
+	background:#fafafa;
+}
+
+html * {
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+canvas{
+  display:block;
+  vertical-align:bottom;
+}
+
+/* ---- Avator ---- */
+.main-avatar img{
+	display: block;
+	border-radius: 100%;
+	width: 9em;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 50px 0;
+}
+
+/* --- Icons --- */
+ul.icons{
+	cursor: default;
+	list-style: none;
+	padding-left: 0;
+	font-size: 32px;
+}
+
+	ul.icons li{
+		display: inline-block;
+		padding: 0 1em 0 1em;
+	}
+
+	ul.icons li:last child{
+		padding-right:0;
+	}
+
+	ul.icons li .icon:before{
+		font-size: 1.5em;
+	}
+
+.material-icons{
+	  position: relative;
+	  color: #b61924;
+	  top: 5px;
+}
+
+.fa{
+	color: #212121 ;
+	top:3px;
+}
+
+.fa:hover{
+	color: #b61924;
+}
+
+.link-text{
+	color: #b61924;
+	border-bottom: 1px dashed;
+	text-decoration: none;
+}
+
+.card-title{
+	font-size: 30px !important;
+}
+
+.card-intro{
+	font-size: 19px;
+}
+
+.card-link{
+	color: #b61924;
+}
+
+.collapsible-header{
+	font-size: 20px !important;
+}
+
+.collapsible-intro{
+	font-size: 18px;
+}
+
+.collection-item{
+	font-size: 18px;
+}
+
+.highlight-text{
+	border-radius: 5px;
+	background: #b61924;
+	color: white;
+	padding: 3px;
+}
+/* ---- particles.js container ---- */
+
+#particles-js{
+  width: 100%;
+  height: 100%;
+  background-color: #fafafa;
+  background-repeat: no-repeat;
+	position: fixed;
+	z-index: -999;
+}
+
+.card-image img{
+	height: 60% !important;
+	width: 80% !important;
+	background-size: cover !important;
+}
+
+.blockquote{
+  font-size: 30px;
+  border-left: 0 solid #b61924;
+  margin: .5em 10px;
+  padding: 0 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+  padding: 10px 20px;
+  line-height: 1.4;
+}
+
+.blockquote:before {
+  content: open-quote;
+  display: inline;
+  height: 0;
+  line-height: 0;
+  left: -10px;
+  position: relative;
+  top: 30px;
+  color: #b61924;
+  font-size: 3em;
+}
+
+blockquote{
+	border-left: 8px solid #b61924 !important;
+}
+
+.pinned {
+	position: fixed;
+	top: 40%;
+	left: 85%;
+}
+
+ul.table-of-contents li{
+	font-size: 19px;
+}
+
+.table-of-contents a.active {
+	border-left-color: #b61924 !important;
+	color: #b61924 !important;
+}
+
+.table-of-contents a{
+	color: #212121 !important;
+}
+
+.card {
+	padding: 0 0 0 0 !important;
+}
