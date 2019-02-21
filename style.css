@@ -17,7 +17,7 @@ canvas{
 }
 
 /* ---- Avator ---- */
-.main-avatar img{
+.main-avatar {
 	display: block;
 	border-radius: 100%;
 	width: 9em;
@@ -109,7 +109,17 @@ ul.icons{
 	z-index: -999;
 }
 
+#name-pic {
+	padding-left: 2rem;
+	padding-bottom: 1rem;
+}
+
 .card-image img{
+	display: block;
+	border-radius: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 50px 0;
 	height: 60% !important;
 	width: 80% !important;
 	background-size: cover !important;
