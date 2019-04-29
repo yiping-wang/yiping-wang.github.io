@@ -96,7 +96,7 @@ ul.icons{
 	border-radius: 5px;
 	background: #b61924;
 	color: white;
-	padding: 3px;
+	padding: 2.5px;
 }
 /* ---- particles.js container ---- */
 
@@ -172,4 +172,12 @@ ul.table-of-contents li{
 
 .card {
 	padding: 0 0 0 0 !important;
+}
+
+.badge {
+	background-color: #b61924 !important;
+}
+
+.collection .collection-item {
+	background-color:#fafafa !important;
 }
