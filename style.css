@@ -58,7 +58,16 @@ ul.icons{
 	top:3px;
 }
 
+.ai {
+	color: #212121 ;
+	top:3px;
+}
+
 .fa:hover{
+	color: #b61924;
+}
+
+.ai:hover {
 	color: #b61924;
 }
 
