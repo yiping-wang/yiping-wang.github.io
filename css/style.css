@@ -23,7 +23,7 @@ html * {
 	font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-canvas{
+canvas {
   display:block;
   vertical-align: bottom;
 }
@@ -183,10 +183,16 @@ blockquote{
 	border-left: 8px solid #b61924 !important;
 }
 
-.pinned {
+.right-pinned {
 	position: fixed;
 	top: 40%;
-	left: 85%;
+	left: 90%;
+}
+
+.left-pinned {
+	position: fixed;
+	top: 40%;
+	left: 0%;
 }
 
 ul.table-of-contents li{
@@ -208,6 +214,11 @@ ul.table-of-contents li{
 
 .badge {
 	background-color: #b61924 !important;
+}
+
+.collection .collection-item.avatar {
+    min-height: 64px !important ;
+    padding-left: 54px !important ;
 }
 
 .timeline {
