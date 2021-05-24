@@ -337,3 +337,7 @@ ul.table-of-contents li{
 		left: 0;
 	  }
   }
+
+.circle {
+	border-radius: 0% !important
+}
